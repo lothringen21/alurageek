@@ -6,7 +6,7 @@ function Articulos2() {
         <div className="articulos" id="centros-mesa">
             <h3>Centro mesa</h3>
             <div className="articulo">
-                <img src="/img/CentrosDeMesa/alcatraz.jpeg" className="zoom" />
+                <img src="/img/CentrosDeMesa/alcatraz.jpeg" alt="alcatraz" className="zoom" />
                 <h4>Paz</h4>
                 <p>Demuestra todo tu apoyo con buenos pensamientos y recuerda tu aprecio hacia esa persona</p>
                 <p className="precio">$400</p>
