@@ -1,0 +1,115 @@
+.articulos{
+    display: flex;
+
+    margin-top: 30px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    box-sizing: border-box;
+
+    width: calc(34.33% - -57px); /* Ajusta el tamaño para tres columnas en pantallas grandes */
+    margin-bottom: 20px; /* Espacio entre elementos */
+}
+
+.articulos h3{
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 32px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    animation: floatAnimation 3s ease infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.articulos img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.zoom {
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  }
+  
+  /* Estilos de la imagen al pasar el cursor sobre ella */
+  .zoom:hover {
+    transform: scale(1.9); /* Hacemos que la imagen se agrande al 120% del tamaño original */
+  }
+  /*Con estos estilos, cuando el cursor se coloque sobre la imagen, esta se agrandará al 120% de su tamaño original de manera suave debido a la transición CSS. Puedes ajustar el valor scale para controlar cuánto se agranda la imagen al pasar el cursor sobre ella.*/
+
+.articulos p{
+    width: 50%;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.precio{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.articulo button{
+    background-color: #CF777A;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.articulo button:hover {
+    background-color: #F8B5AB;
+  }
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+    .articulos {
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+      flex-direction: column;
+      margin: 40px;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .articulos h3 {
+      writing-mode: horizontal-tb;
+      text-orientation: mixed;
+      transform: none; /* Quitamos la animación de flotación */
+      font-size: 40px; /* Ajustamos el tamaño del texto */
+      top: auto; /* Quitamos la posición superior */
+      left: auto; /* Quitamos la posición izquierda */
+      margin-bottom: 20px; /* Agregamos espacio entre el h3 y los artículos */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .articulo p {
+      
+      overflow: hidden;
+      
+    }
+  }
