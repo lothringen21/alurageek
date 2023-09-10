@@ -5,7 +5,7 @@ import Descripcion from './Componentes/Descripcion/Descripcion';
 import Articulos from './Componentes/Articulos/Articulos';
 import Articulos2 from './Componentes/Articulos/Articulos2/Articulos2';
 import Articulos3 from './Componentes/Articulos/Articulos3/Articulos3';
-import Contacto from './Componentes/Contacto/Contacto';
+import Footer from './Componentes/Footer/Footer';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Articulos />
       <Articulos2 />
       <Articulos3 />
-      <Contacto />
+      <Footer />
     </div>
   );
 }
