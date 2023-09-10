@@ -1,9 +1,9 @@
-import "./Contacto.css"
+import "./Footer.css"
 
-function Contacto (){
+function Footer (){
     return (
         <div>
-            <img src="/img/sakura_banner.png" />
+            <img src="/img/sakura_banner.png" alt="sakuraFlorerias" />
             <div>
                 
             </div>
@@ -11,4 +11,4 @@ function Contacto (){
     )
 }
 
-export default Contacto
+export default Footer
