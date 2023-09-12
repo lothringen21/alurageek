@@ -7,7 +7,10 @@
   align-items: center;
   padding: 10px 19px;
   margin-bottom: 150px;
+
 }
+
+
 
 .logo img{
   margin-left: 30px;
@@ -16,6 +19,7 @@
   margin-right: 10px;
   animation: zoom 5s infinite;
 }
+
 
 @keyframes zoom {
     0% {
