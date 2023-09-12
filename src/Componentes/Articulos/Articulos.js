@@ -21,7 +21,7 @@ function Articulos() {
             <div className="articulo">
                 <img src="/img/bouquets/ramo-rosas-y-girasoles-.png" alt="rosasygirasoles" className="zoom" /> 
                 <h4>SunRoses</h4>
-                <p>Dí cuánto amas a tu persona favorita, con este bouquet <br />de rosas rojas y girasoles brillantes</p>
+                <p>Dí cuánto amas a tu persona favorita, con este bouquet <br />de rosas rojas y girasoles</p>
                 <p className="precio">$700</p>
                 <button>Añadir al carrito</button>
             </div>

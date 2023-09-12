@@ -15,7 +15,7 @@ function Articulos2() {
             <div className="articulo">
                 <img src="/img/CentrosDeMesa/azul.jpeg" alt="hortensias" className="zoom" />
                 <h4>Eres mi cielo</h4>
-                <p>Sorprende a esa persona con este detalle de hortensias azules y rosas blancas; deal para decorar un espacio interior</p>
+                <p>Sorprende a esa persona con este detalle de hortensias azules y rosas blancas; deal para decorar interiores</p>
                 <p className="precio">$900</p>
                 <button>Añadir al carrito</button>
             </div>
@@ -36,7 +36,7 @@ function Articulos2() {
             <div className="articulo">
                 <img src="/img/CentrosDeMesa/trio.jpeg" alt="rojas" className="zoom" />
                 <h4>Tu yo siempre</h4>
-                <p>¡Es perfecto para celebrar cualquier ocasión especial como cumpleaños, o solo porque sí! Trio de rosas claro</p>
+                <p>¡Es perfecto para celebrar cualquier ocasión especial como cumpleaños, o solo porque sí! Trio de rosas</p>
                 <p className="precio">$600</p>
                 <button>Añadir al carrito</button>
             </div>
