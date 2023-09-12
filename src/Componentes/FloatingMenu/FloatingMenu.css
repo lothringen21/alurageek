@@ -1,0 +1,35 @@
+.floating-menu {
+    position: fixed;
+    top: 53%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #FCECD8; /* Cambia esto al color de fondo deseado */
+    z-index: 3; /* Asegura que esté por encima de otros elementos */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: añade sombra */
+    padding: 5px; /* Espaciado interno del menú */
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Quicksand';
+    border-radius: 20px;
+    opacity: 0.7;
+  }
+  
+  /* Estilo para los elementos del menú */
+  .floating-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .floating-menu li {
+    margin-bottom: 10px; /* Espaciado entre elementos del menú */
+  }
+  
+  .floating-menu a {
+    text-decoration: none;
+    color: #333; /* Cambia esto al color de texto deseado */
+  }
+  
+  /* Estilo para el menú en estado "hover" */
+  .floating-menu a:hover {
+    color: #007BFF; /* Cambia esto al color deseado al pasar el mouse */
+  }
