@@ -1,13 +1,13 @@
 .contacto {
     width: 100%;
-    height: 350px;
+    height: 400px;
     margin-top: 180px;
     background-color: #FCECD8;
     color: #434343;
     padding: 20px;
     display: flex;
-    
     align-items: center;
+    margin-bottom: 60px;
   }
 
   .logo--footer{
@@ -16,6 +16,7 @@
   
   .payment-icons img{
     width: 50px;
+    margin-right: 10px;
   }
   
   .logo--footer ul {
@@ -33,6 +34,10 @@
     font-weight: 600;
     font-family: 'Dosis';
   }
+
+  form{
+    margin-top: 30px;
+  }
   
   .contact-form h3 {
     color: #434343;
@@ -43,6 +48,7 @@
   .contact-form p{
     font-family: 'Dosis';
     font-weight: 600;
+    margin-top: 20px;
   }
   
   .contact-form input,
