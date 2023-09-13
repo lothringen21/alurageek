@@ -1,0 +1,76 @@
+.contacto {
+    width: 100%;
+    height: 350px;
+    margin-top: 180px;
+    background-color: #FCECD8;
+    color: #434343;
+    padding: 20px;
+    display: flex;
+    
+    align-items: center;
+  }
+
+  .logo--footer{
+    width: 50%;
+  }
+  
+  .payment-icons img{
+    width: 50px;
+  }
+  
+  .logo--footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .logo--footer li {
+    margin: 10px 0;
+  }
+  
+  .logo--footer a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Dosis';
+  }
+  
+  .contact-form h3 {
+    color: #434343;
+    font-size: 32px;
+    font-family: 'Dosis';
+  }
+
+  .contact-form p{
+    font-family: 'Dosis';
+    font-weight: 600;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form button {
+    background-color: #F8B5AB;
+    font-family: 'Quicksand';
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover{
+    background-color: #CF777A;
+  }
+
+  /* Estilos para pantallas pequeñas (máximo 768px de ancho) */
+@media (max-width: 768px) {
+    .contacto {
+      margin-top: 80px; /* Ajusta el margen superior en pantallas pequeñas */
+      flex-direction: column;
+    }
+
+  }
