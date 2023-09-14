@@ -1,6 +1,6 @@
 .floating-menu {
     position: fixed;
-    top: 53%;
+    top: 100px;
     right: 0;
     transform: translateY(-50%);
     background-color: #FCECD8; /* Cambia esto al color de fondo deseado */
