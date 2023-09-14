@@ -1,0 +1,16 @@
+.copyright{
+    background-color: #FCECD8;
+    height: 120px;
+    align-items: center;
+    color: #434343;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.links img {
+    width: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
