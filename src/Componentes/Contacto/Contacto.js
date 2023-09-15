@@ -5,7 +5,7 @@ function Contacto() {
   return (
     <div className="contacto" id='contacto'>
       <div className="logo--footer">
-        <img src='/img/sakura_banner.png'/>
+        <img src='/img/sakura_banner.png' alt='logo' title='Sakura Florerias'/>
         <ul>
           <li><a href="#quienes-somos">Quiénes somos</a></li>
           <li><a href="#politica-privacidad">Política de privacidad</a></li>
