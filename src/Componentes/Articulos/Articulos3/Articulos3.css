@@ -26,6 +26,7 @@
     text-orientation: upright;
     text-transform: uppercase;
     animation: floatAnimation 3s ease infinite;
+    margin: 10px;
 }
 
 @keyframes floatAnimation {
